@@ -413,7 +413,7 @@ export function checkDirtyFiles() {
 
     if (dirtyFile) {
       vscode.window.showWarningMessage(
-        'You have an unsaved changes in your open file. You can enable `harwdario.tower.alwaysSaveAll` setting to always save all unsaved changes',
+        'You have an unsaved changes in your open file. You can enable `hardwario.tower.alwaysSaveAll` setting to always save all unsaved changes',
         'Save All',
         'Cancel',
       )

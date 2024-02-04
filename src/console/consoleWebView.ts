@@ -14,7 +14,7 @@ function getNonce() {
 }
 
 export default class ConsoleWebViewProvider implements vscode.WebviewViewProvider {
-  public static readonly viewType = 'harwdario.tower.views.console';
+  public static readonly viewType = 'hardwario.tower.views.console';
 
   public view?: vscode.WebviewView;
 
